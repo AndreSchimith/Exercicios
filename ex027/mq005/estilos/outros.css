@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*Não tem necessidade de fazer as configurações gerais pois já estão feitas na versão mobile*/
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    span#burguer{
+        display: none;
+    }
+    header menu{
+        display: block;
+    }
+    header > menu > ul{
+        margin: 20px;
+    }
+    header > menu > ul > li{
+        display: inline-block;
+        margin-right: 10px;
+        box-shadow: 1px 0px 2px black;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    span#burguer{
+        display: none;
+    }
+    header menu{
+        display: block;
+    }
+    header > menu > ul{
+        margin: 20px;
+    }
+    header > menu > ul > li{
+        display: inline-block;
+        margin-right: 10px;
+        box-shadow: 1px 0px 2px black;
+    }
+    main{
+        width: 800px;
+    }    
+}

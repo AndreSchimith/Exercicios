@@ -1,0 +1,75 @@
+@charset "UTC-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-color: rgba(128, 0, 128, 0.501);
+}
+header{
+    color: white;
+    background-color: rgba(128, 0, 128, 0.456);
+}
+header h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px;
+}
+header #burguer{
+    background-color: purple;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+header #burguer:hover{
+    background-color: rgba(128, 0, 128, 0.501);
+    cursor: pointer;
+}
+header menu{
+    display: none;
+}
+header menu ul{
+    list-style-type: none;
+}
+header > menu > ul > li > a{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-top: 2px solid rgba(255, 255, 255, 0.519);
+    text-decoration: none;
+    background-color: purple;
+}
+header > menu > ul > li > a:hover{
+    background-color: rgba(128, 0, 128, 0.501);
+}
+main{
+    background-color: white;
+    width: 85vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+main article > h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+main article > p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgba(128, 0, 128, 0.456) ;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
